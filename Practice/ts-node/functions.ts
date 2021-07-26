@@ -28,4 +28,9 @@ export const restParams = (name: String, ...hobbies: string[]): String => {
     return `Name is : ${name}. Hobbies are : ${hobbies.join(' ')}`
 }
 
+// Passing object as an argument type and returning String type as a return type
+export const getNames = (user: {firstName: String, lastName: String}): String => {
+    return `Name of User is : ${user?.firstName ?? 'firstName'} ${user?.lastName ?? 'lastName'}`
+}
+
 export default addNumbers

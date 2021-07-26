@@ -1,4 +1,4 @@
-import addNumbers, {concatStrings, format, promiseFunc, restParams} from "./functions";
+import addNumbers, {concatStrings, format, promiseFunc, restParams, getNames} from "./functions";
 
 console.log(addNumbers(2,3))
 
@@ -11,3 +11,4 @@ console.log(promiseFunc('https://jsonschema.com'))
 
 console.log(restParams('John', 'Reading', 'Sports', 'Video Games'))
 
+console.log(getNames({firstName: 'John', lastName: 'Doe'}))
