@@ -1,6 +1,9 @@
 # React Fetch API Project
 
-### This is a mini React project which will fetch a new Person everytime we click the given button or refresh the page.
+#### This is a mini React project which will fetch a new Person everytime we click the given button or refresh the page.
+#### API Used: https://api.randomuser.me/
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
